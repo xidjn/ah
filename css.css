@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,700&display=swap');
+
+*   {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.tit {
+    color: aliceblue;
+}
+
+
+body {
+  background-image: url("./Bilde_Filmer/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+/* Tekst redigering */
+h1 {
+  margin-left: 30px;
+  margin-top: 30px;;
+}
+
+p, h4{
+  margin-left: 30px;
+}
+
+/* Meny */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #336C48;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #3F4531;
+
+/* PDF */
+}
+.tutorial1 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin-left: 25%;
+  margin-top: 30px;
+}
+.tutorial2 {
+  position: absolute;
+  top: 0;
+  left: auto;
+  width: 70%;
+  height: 100%;
+  border: 0;
+
+}
+
+p{
+margin-bottom: 20px;
+padding-right: 700px;
+font-size: 20px;
+color: black;
+}
+.form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
